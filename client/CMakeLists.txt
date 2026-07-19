@@ -45,3 +45,8 @@ target_link_libraries(SvistCalcApp PRIVATE
     Qt5::Quick
     SharedMath
 )
+
+# hide terminal
+if(WIN32)
+    set_target_properties(SvistCalcApp PROPERTIES WIN32_EXECUTABLE ON)
+endif()
