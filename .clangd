@@ -1,0 +1,2 @@
+CompileFlags:
+  Add: [-fpermissive, -Wno-everything]
