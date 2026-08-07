@@ -1,3 +1,9 @@
+## SvistCalc 1.0.1
+
+Fix validation of operation result
+
+---
+
 ## SvistCalc 1.0
 
 ### 🚀 Welcome to the first public release of SvistCalc!
