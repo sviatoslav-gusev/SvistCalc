@@ -31,7 +31,7 @@ double gs::calc::shared::Calculate(int typeWork, double a, double b) // noexcept
         throw std::logic_error("Unknown operation");
     }
 
-    ValidateOrThrow(a, "Action result");
+    ValidateOrThrow(result, "Action result");
 
     return result;
 }
